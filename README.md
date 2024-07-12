@@ -1,33 +1,24 @@
-# Cảm biến ánh sáng quang trở MKE-S02 LDR Light Sensor
+# Cảm biến nồng độ cồn MKE-S07 MQ-3 Alcohol Sensor
 
 ## Giới thiệu
 
-Cảm biến ánh sáng quang trở MKE-S02 LDR Light Sensor được sử dụng để đo cường độ ánh sáng bằng quang trở LDR (Light Dependent Resistor), thích hợp với các ứng dụng: đo cường độ sáng môi trường, bật tắt đèn tự động,..., cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với cường độ ánh sáng của môi trường giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu. 
+Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor được sử dụng để đo nồng độ cồn của môi trường không khí, cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với nồng độ cồn trong không khí giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
 
-Cảm biến ánh sáng quang trở MKE-S02 LDR Light Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Nguyên lý hoạt động
 
-Cảm biến hoạt động dựa trên sự thay đổi điện trở (độ dẫn điện) của quang trở (LDR-Light Dependent Resistor) với cường độ ánh sáng của môi trường, để chuyển giá trị điện trở thành điện áp để có thể đọc bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý ta mắc mạch cầu phân áp như sau:
-
-![MKE_S02](/image/MKE_S02_1.jpg)
-
-Diễn giải các giá trị:
-
-- VCC: điện áp cấp nguồn cho cảm biến.
-- RS: Giá trị điện trở của quang trở (LDR-Light Dependent Resistor).
-- R2: Điện trở tạo thành cấu trúc cầu phân áp với RS, có giá trị xác định theo khuyến nghị của nhà sản xuất.
-- Vout: Điện áp đầu ra thay đổi theo giá trị của RS.
-
-Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo giá trị của điện trở RS, mà RS sẽ thay đổi theo cường độ ánh sáng của môi trường, khi đó dùng mạch xử lý để đo Vout ta xác định được cường độ ánh sáng môi trường tại thời điểm đo. 
+Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor được thiết kế dựa trên cảm biến MQ-3 là một loại Chemiresistors (tạm dịch là điện trở hóa học), để tham khảo nguyên lý hoạt động của cảm biến xin tham bảo bài viết: [Cấu tạo và nguyên lý hoạt dộng của các loại cảm biến MQ.
+](https://www.makerlab.vn/cau-tao-va-nguyen-ly-hoat-dong-cua-cac-loai-cam-bien-mq/)
 
 ## Thông số kỹ thuật
 
-- Model: MKE-S02
+- Model: MKE-S07
+- Cảm biến chính: MQ-3 Alcohol Sensor.
+- Đo nồng độ cồn trong môi trường không khí.
 - Điện áp hoạt động: 5VDC
 - Chuẩn giao tiếp: Analog
 - Điện áp giao tiếp: 0~3.3VDC
-- Đo cường độ ánh sáng bằng quang trở (LDR-Light Dependent Resistor)
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: connector XH2.54 3Pins
@@ -35,13 +26,13 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 
 ## Hình ảnh sản phẩm
 
-![MKE_S02](/image/MKE_S02_2.jpg)
+![MKE_S07](/image/MKE_S07_1.jpg)
 
-![MKE_S02](/image/MKE_S02_3.jpg)
+![MKE_S07](/image/MKE_S07_2.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S02](/image/MKE_S02_4.JPG)
+![MKE_S07](/image/MKE_S07_3.JPG)
 
 ## Các chân tín hiệu
 
@@ -73,7 +64,7 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu "MKE_S02_LDR_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S02_LDR hoặc [tải chương trình mẫu tại đây](/arduino)
+- Mở chương trình mẫu "MKE_S07_MQ3_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S02_MQ3 hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
@@ -90,7 +81,7 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s02-ldr-light-sensor](https://github.com/devmakerlabvn/makecode-mke-s02-ldr-light-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s07-mq-3-alcohol-sensor](https://github.com/devmakerlabvn/makecode-mke-s07-mq-3-alcohol-sensor)
 - Kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P0] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
