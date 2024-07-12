@@ -2,13 +2,13 @@
 
 ## Giới thiệu
 
-Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor được sử dụng để đo nồng độ cồn của môi trường không khí, cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với nồng độ cồn trong không khí giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
+Cảm biến nồng độ cồn MKE-S07 MQ-3 Alcohol Sensor được sử dụng để đo nồng độ cồn của môi trường không khí, cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với nồng độ cồn trong không khí giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
 
-Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến nồng độ cồn MKE-S07 MQ-3 Alcohol Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Nguyên lý hoạt động
 
-Cảm biến nồng độ cồn MKE-S07 MQ-3 alcohol sensor được thiết kế dựa trên cảm biến MQ-3 là một loại Chemiresistors (tạm dịch là điện trở hóa học), để tham khảo nguyên lý hoạt động của cảm biến xin tham bảo bài viết: [Cấu tạo và nguyên lý hoạt dộng của các loại cảm biến MQ.
+Cảm biến nồng độ cồn MKE-S07 MQ-3 Alcohol Sensor được thiết kế dựa trên cảm biến MQ-3 là một loại Chemiresistors (tạm dịch là điện trở hóa học), để tham khảo nguyên lý hoạt động của cảm biến xin tham bảo bài viết: [Cấu tạo và nguyên lý hoạt dộng của các loại cảm biến MQ.
 ](https://www.makerlab.vn/cau-tao-va-nguyen-ly-hoat-dong-cua-cac-loai-cam-bien-mq/)
 
 ## Thông số kỹ thuật
