@@ -32,7 +32,7 @@ Cảm biến nồng độ cồn MKE-S07 MQ-3 Alcohol Sensor được thiết k�
 
 ## Kích thước sản phẩm
 
-![MKE_S07](/image/MKE_S07_3.JPG)
+![MKE_S07](/image/MKE_S07_3.jpg)
 
 ## Các chân tín hiệu
 
